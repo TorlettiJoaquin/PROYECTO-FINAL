@@ -13,6 +13,7 @@ import { HssComponent } from './components/hss/hss.component';
 import { LogoApComponent } from './components/logo-ap/logo-ap.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
