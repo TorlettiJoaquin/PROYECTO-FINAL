@@ -1,0 +1,40 @@
+div{
+    text-align: center;
+    color: white;
+}
+
+/*foto de perfil*/
+@media (min-width: 576px){
+    #fotoperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px 3px grey;
+        left: 2%;
+        margin-top: -7%;
+    }
+    #FirstName{
+        font-weight: bold;
+        margin: 30% 0 0 0px ;
+    }
+}
+@media (max-width: 576px){
+    #fotoperfil{
+        position: relative;
+        width: 35vw;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px 3px grey;
+        margin-top: -15vw;
+    }
+    #FirstName{
+        font-weight: bold;
+        margin: 1vh 0 0 0px ;
+    }
+}
+
+/*nombre*/
+#SecondName{
+    font-weight: bold;
+    margin: -1vh 0 0 0px ;
+}
+
